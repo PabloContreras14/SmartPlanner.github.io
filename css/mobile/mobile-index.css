@@ -40,7 +40,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        height: 410px;
         background-color: #fbfbfb;
     }
 
@@ -59,7 +59,7 @@
         border-radius: 20px;
         text-align: center;
     }
-
+    
     .container .boton {
         display: flex;
         height: 40px;
