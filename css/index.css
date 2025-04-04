@@ -1,0 +1,10 @@
+@media (min-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        
+    }
+}

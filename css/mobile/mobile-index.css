@@ -1,0 +1,92 @@
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        background: url('../../img/Fondo1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header img {
+        margin-top: 30px;
+    }
+
+    header h1 {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 410px;
+        background-color: #fbfbfb;
+    }
+
+    .container h1 {
+        margin-bottom: 20px;
+    }
+
+    .container input {
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: #a1d799;
+        padding: 5px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    
+
+    .container .boton {
+        display: flex;
+        height: 40px;
+        width: 120px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: maroon;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        border-bottom: solid #1c2120 2px;
+        border-right: solid #1c2120 2px;
+    }
+
+    .container .boton button {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: solid #1c2120 2px;
+        color: #1c2120;
+        background-color: #a1d799;
+    }
+    
+    .container h2 {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}
